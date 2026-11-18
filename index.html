@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoFix — автосервис с честными ценами</title>
+  <meta name="description" content="Автосервис AutoFix: диагностика, ТО, ремонт ходовой. Прозрачный прайс, запись онлайн.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header__inner">
+      <a class="header__logo" href="#top">
+        <span class="header__logo-accent">Auto</span>Fix
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#services">Услуги</a></li>
+          <li class="nav__item"><a class="nav__link" href="#price">Прайс</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+      <a class="button button--header" href="tel:+78000000000">Позвонить</a>
+    </div>
+  </header>
+
+  <main class="main" id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="hero__badge">Ремонт без ожидания — запись на сегодня</p>
+        <h1 class="hero__title">
+          Автосервис, где цена известна <span class="hero__title-accent">до ремонта</span>
+        </h1>
+        <p class="hero__text">
+          Диагностика, ТО и ремонт любой сложности. Прайс-лист открыт и фиксирован —
+          вы платите ровно столько, сколько указано в смете.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#price">Смотреть прайс</a>
+          <a class="button button--ghost" href="#contact">Записаться</a>
+        </div>
+        <ul class="hero__features">
+          <li class="hero__feature">Диагностика бесплатно</li>
+          <li class="hero__feature">Гарантия на работы 6 месяцев</li>
+          <li class="hero__feature">Оригинальные запчасти</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+      <div class="services__inner">
+        <h2 class="services__title">Что мы делаем</h2>
+        <ul class="services__grid">
+          <li class="service-card">
+            <div class="service-card__icon" aria-hidden="true">🔧</div>
+            <h3 class="service-card__name">Диагностика</h3>
+            <p class="service-card__text">
+              Компьютерная проверка всех систем. Находим причину, а не симптом.
+            </p>
+          </li>
+          <li class="service-card">
+            <div class="service-card__icon" aria-hidden="true">🛞</div>
+            <h3 class="service-card__name">Ходовая и тормоза</h3>
+            <p class="service-card__text">
+              Замена колодок, дисков, стоек и рычагов в день обращения.
+            </p>
+          </li>
+          <li class="service-card">
+            <div class="service-card__icon" aria-hidden="true">🛢️</div>
+            <h3 class="service-card__name">ТО и масло</h3>
+            <p class="service-card__text">
+              Плановое обслуживание по регламенту вашего производителя.
+            </p>
+          </li>
+          <li class="service-card">
+            <div class="service-card__icon" aria-hidden="true">⚙️</div>
+            <h3 class="service-card__name">Двигатель и КПП</h3>
+            <p class="service-card__text">
+              Капремонт, замена цепи, обслуживание автоматов и вариаторов.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PRICE ===== -->
+    <section class="price" id="price">
+      <div class="price__inner">
+        <h2 class="price__title">Прайс-лист</h2>
+        <p class="price__note">
+          Цены включают работу и расходники. Точная смета — после бесплатной диагностики.
+        </p>
+        <ul class="price__list">
+          <li class="price-row">
+            <span class="price-row__name">Компьютерная диагностика</span>
+            <span class="price-row__dots" aria-hidden="true"></span>
+            <span class="price-row__value">бесплатно</span>
+          </li>
+          <li class="price-row">
+            <span class="price-row__name">Замена масла и фильтра</span>
+            <span class="price-row__dots" aria-hidden="true"></span>
+            <span class="price-row__value">от 1 500 ₽</span>
+          </li>
+          <li class="price-row">
+            <span class="price-row__name">Замена тормозных колодок</span>
+            <span class="price-row__dots" aria-hidden="true"></span>
+            <span class="price-row__value">от 2 000 ₽</span>
+          </li>
+          <li class="price-row">
+            <span class="price-row__name">Замена стоек амортизатора</span>
+            <span class="price-row__dots" aria-hidden="true"></span>
+            <span class="price-row__value">от 4 500 ₽</span>
+          </li>
+          <li class="price-row">
+            <span class="price-row__name">Замена сцепления</span>
+            <span class="price-row__dots" aria-hidden="true"></span>
+            <span class="price-row__value">от 9 000 ₽</span>
+          </li>
+          <li class="price-row">
+            <span class="price-row__name">Ремонт ГРМ (цепь/ремень)</span>
+            <span class="price-row__dots" aria-hidden="true"></span>
+            <span class="price-row__value">от 8 000 ₽</span>
+          </li>
+        </ul>
+        <a class="button button--primary price__cta" href="#contact">Записаться на диагностику</a>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <h2 class="contact__title">Записаться на сервис</h2>
+        <p class="contact__text">
+          Оставьте номер — перезвоним в течение 15 минут и подберём удобное время.
+        </p>
+        <form class="contact-form" action="#" method="post">
+          <label class="contact-form__label">
+            <span class="contact-form__caption">Ваше имя</span>
+            <input class="contact-form__input" type="text" name="name" placeholder="Иван" required>
+          </label>
+          <label class="contact-form__label">
+            <span class="contact-form__caption">Телефон</span>
+            <input class="contact-form__input" type="tel" name="phone" placeholder="+7 900 000-00-00" required>
+          </label>
+          <button class="button button--primary contact-form__submit" type="submit">
+            Жду звонка
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copyright">© 2026 AutoFix — автосервис</p>
+      <address class="footer__address">г. Волгодонск, ул. Заводская, 1 · ежедневно 9:00–20:00</address>
+      <a class="footer__phone" href="tel:+78000000000">+7 (800) 000-00-00</a>
+    </div>
+  </footer>
+
+</body>
+</html>
